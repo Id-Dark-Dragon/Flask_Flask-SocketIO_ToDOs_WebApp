@@ -1,0 +1,36 @@
+<div id="overlay">
+    <div class="overlay-panel round-radius">
+        <h2>Log in to save</h2>
+        <button class="close-btn" id="close-btn">&#10007;</button>
+
+
+        <form action="{{ url_for('login') }}" id="addForm" method="POST" enctype="multipart/form-data" class="form">
+            <label class="element-block">
+                <input class="form-text-box" name="sign" type="radio" value="0" required >Signed-Up Before
+            </label>
+            <label>
+                <input class="form-text-box" name="sign" type="radio" value="1" required checked>Signing For The First
+            </label>
+            <label>UserName: <input class="form-text-box" name="name" type="text" required pattern="[A-Za-z0-9_]{1,20}" title="Letters, numbers, and underscores only, max 20 characters"></label>
+            <label>Password: <input class="form-text-box" name="pass" type="password" required pattern="[A-Za-z0-9_]{1,20}" title="Letters, numbers, and underscores only, max 20 characters"></label>
+            <label>E-Mail: (opt) <input class="form-text-box" name="mail" type="email"></label>
+
+
+            <button id="add-to-check-btn" class="round-radius  btn container-md add-list-btn">Add</button>
+        </form>
+
+
+    </div>
+</div>
+
+
+<script>
+    document.getElementById("login-btn").addEventListener("click", function () {
+        document.getElementById("overlay").style.display = "block";
+    });
+
+    document.getElementById("close-btn").addEventListener("click", function () {
+        document.getElementById("overlay").style.display = "none";
+    });
+</script>
+

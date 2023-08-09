@@ -1,0 +1,18 @@
+ {%if get_flashed_messages()%}
+    <div id="overlay-notif">
+        <div class="overlay-panel round-radius">
+            {% for mes in get_flashed_messages(): %}
+            <label class="notif">{{mes}}</label>
+            {%endfor%}
+        </div>
+    </div>
+    {%endif%}
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            setTimeout(function () {
+                document.getElementById("overlay-notif").style.display = "none";
+            }, 3000);
+        });
+
+    </script>

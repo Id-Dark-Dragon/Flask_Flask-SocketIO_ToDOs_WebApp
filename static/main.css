@@ -1,0 +1,245 @@
+pallate {
+    color: #DD58D6;
+    color: #FFE79B;
+    color: #9336B4;
+    color: #40128B;
+    color: #DDE6ED;
+    color: #C4B0FF;
+    color: #8696FE;
+    color: #00FFCA;
+}
+
+body {
+    background-color: #DDE6ED;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+
+.round-radius {
+    border-radius: 20px;
+}
+
+
+.navbar {
+    background-color: #40128B;
+    color: #A2FF86;
+    border-radius: 0 0 20px 20px;
+}
+
+.nav-link {
+    color: #FFE79B;
+}
+
+.nav-link:hover {
+    color: #4FC0D0;
+}
+
+.navbar img {
+    height: 50px;
+}
+
+.btn {
+    color: #FFE79B;
+    border-color: #FFE79B;
+}
+
+.btn:hover {
+    color: #4FC0D0;
+    border-color: #4FC0D0;;
+}
+
+
+.todo-input {
+    margin: 1% 0;
+    background-color: #DDE6ED;
+}
+
+.todo-input input {
+    display: block;
+    width: 100%;
+    height: 100px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #DD58D6;
+    font-size: 3em;
+    border-width: 0 50px 0 100px;
+    padding: 10% 5%;
+}
+
+.todo-list {
+    margin: 1% 0;
+    padding: 5px 5%;
+    border-style: solid;
+    min-height: 50rem;
+    width: 100%;
+    background-color: #DDE6ED;
+    border-color: #40128B;
+    border-width: 0 50px 0 100px;
+}
+
+.task {
+    font-size: 1.5em;
+    background-color: #ac7afa;
+    border-radius: 5px 40px 40px 5px;
+    border: 2rem #40128B;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+
+.task-action {
+    float: right;
+    padding: 0 50px;
+}
+
+.task-action :hover {
+    color: #DDE6ED;
+}
+
+.task-action span {
+    padding: 3px;
+}
+
+.task-action .done {
+    color: #01d2c1;
+}
+
+.task-action .star {
+    color: #bb7000;
+}
+
+.task-action .palette {
+    color: #b700ff;
+}
+
+.task-action .delete {
+    color: #ff00ae;
+}
+
+.task-action .dropdown-colors-menu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #40128B;
+}
+
+.task-action .dropdown-colors-menu.show {
+    display: flex;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #40128B;
+}
+
+.task-action .dropdown-colors-menu li {
+    padding: 0 5px 5px;
+}
+
+.add-list-btn {
+    color: #40128B;
+    font-size: 1.5em;
+    border-color: #40128B;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.lists {
+    background: linear-gradient(-60deg, #DD58D6, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.lists:hover {
+    background: #DD58D6;
+}
+
+.lists .del-btn {
+    border-radius: 15px;
+    transition: width 0.5s ease;
+    width: 30px;
+    height: 30px;
+    background: #fee140;
+    border: 0;
+}
+
+.lists .del-btn:hover {
+    background: #fa709a;
+}
+
+/*-------------OVERLY ELEMENTS--------*/
+.overlay-panel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #DDE6ED;
+    padding: 20px;
+}
+.notif {
+    color: #fa709a;
+    font-size: 1rem;
+
+}
+.close-btn {
+    border-radius: 15px;
+    transition: width 0.5s ease;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background: #fee140;
+    border: 0;
+}
+
+.close-btn:hover {
+    background: #fa709a;
+}
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+    z-index: 9999; /* ensure it appears on top of other elements */
+}
+
+
+#overlay-notif {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+    z-index: 9999; /* ensure it appears on top of other elements */
+}
+
+.form label {
+    padding: 0 5px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+    background-color: #40128B;
+    border-radius: 20px 20px 0 0;
+    color: #FFE79B;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: #FFE79B;
+}
+
+
