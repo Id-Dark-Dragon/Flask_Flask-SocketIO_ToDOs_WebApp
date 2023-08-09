@@ -23,3 +23,8 @@ watch DEMO gif at [DEMO](https://github.com/Id-Dark-Dragon/ToDOs_WebApp_with_mul
 ![demo.gif](https://github.com/Id-Dark-Dragon/ToDOs_WebApp_with_multiple_capabilities/blob/master/github/2023-08-09_15-55-40.gif)
 
 
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
