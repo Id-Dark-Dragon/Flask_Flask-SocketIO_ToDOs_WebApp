@@ -1,4 +1,4 @@
-from flask_app.database import Users
+from flask_app.models.database import Users
 from flask_login import LoginManager
 
 login_manager = LoginManager()

@@ -1,5 +1,5 @@
 from flask import url_for
-from flask_app.database import db, Tasks
+from flask_app.models.database import db, Tasks
 from sqlalchemy.orm.exc import UnmappedInstanceError
 from flask_socketio import emit
 

@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_app.database import db, Tasks, Lists, Users
+from flask_app.models.database import db, Tasks, Lists, Users
 from flask_app.extensions.loginmanager import login_manager
 from flask_app.extensions.socketio import socketio
 from flask_app.auxiliary.login_actions import autogenerate_account, user_pass_is_valid, open_todos_permission

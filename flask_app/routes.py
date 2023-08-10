@@ -1,7 +1,7 @@
 import html
 from flask import render_template, request, redirect, url_for, session, flash
 from flask_app import app
-from flask_app.database import db, Tasks, Lists, Users
+from flask_app.models.database import db, Tasks, Lists, Users
 from flask_app.auxiliary import task_actions
 from flask_login import login_user, login_required, current_user, logout_user
 from flask_app.auxiliary.login_actions import autogenerate_account, user_pass_is_valid, open_todos_permission

@@ -1,6 +1,6 @@
 from flask import session
 import uuid
-from flask_app.database import db, Lists, Users
+from flask_app.models.database import db, Lists, Users
 from time import time
 
 
