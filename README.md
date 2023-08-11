@@ -1,6 +1,8 @@
 
 # ToDo Flask Application
-Ready To Deploy Flask Application
+Ready To Deploy Flask Application.
+(I made this project as a practice to work around with different featurs in flask and flask extensions.)
+
 
 ![banner](https://github.com/Id-Dark-Dragon/ToDOs_WebApp_with_multiple_capabilities/blob/master/github/banner.png)
 
