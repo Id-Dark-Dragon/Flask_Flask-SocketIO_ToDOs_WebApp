@@ -2,7 +2,7 @@
 # ToDo Flask Application
 
  a simple Package-Based Structure Flask app
-<br>This project was done as a hands-on practical project to practice building a web app using Flask, Flask-SocketIO, and Flask extensions.
+<br>This project was done as a hands-on practical project to practice building a web app using Flask, Flask-SocketIO, Flask extensions, and also web page designing.
 
 
 
@@ -12,7 +12,7 @@
 
 ## Features
 - Package-Based Structure
-- Innovative Design & Styling
+- Innovative Design & Styling (Mostly my own CSS coding and a bit of Bootstrap.)
 - List Management
 - Task Management
 - User Authentication [(flowchart of how this works!)](https://github.com/Id-Dark-Dragon/ToDOs_WebApp_with_multiple_capabilities/blob/master/prj%20guides/user%20authenticate%20flowchart.png)
