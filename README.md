@@ -1,7 +1,8 @@
 
 # ToDo Flask Application
-Ready To Deploy Flask Application.
-<br>(I made this project as a practice to work around with different featurs in flask and flask extensions.)
+
+ a simple Package-Based Structure Flask app
+<br>(This project was done as a hands-on expertcise to practice building a web app using Flask, Flask-SocketIO and Flask extensions.)
 
 
 ![banner](https://github.com/Id-Dark-Dragon/ToDOs_WebApp_with_multiple_capabilities/blob/master/github/banner.png)
@@ -9,13 +10,21 @@ Ready To Deploy Flask Application.
 
 
 ## Features
-
+- Package-Based Structure
 - Innovative Design & Styling
 - List Management
 - Task Management
 - User Authentication [(flowchart of how this works!)](https://github.com/Id-Dark-Dragon/ToDOs_WebApp_with_multiple_capabilities/blob/master/prj%20guides/user%20authenticate%20flowchart.png)
+- Real-time connection between frontend and backend using Flask-SocketIO.
+
+## Run Locally
 
 
+```bash
+  python run.py
+```
+
+Some configuratuions are accesible from ```config.py```.
 
 
 ## DEMO
